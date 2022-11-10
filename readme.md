@@ -81,7 +81,7 @@ npm run test-e2e
 ```
 
 
-## **Tests**
+## **Dependencies**
 
 Dependencies used is as follows.
 ---
