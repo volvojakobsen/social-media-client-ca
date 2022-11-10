@@ -19,7 +19,9 @@
             "extends": ["plugin:cypress/recommended"],
             "rules": {
               "cypress/no-unnecessary-waiting": "off",
-              "no-unused-vars": "warn"
+              "no-unused-vars": "warn",
+              "no-undef": "off",
+              "jest/no-commented-out-tests": "off"
             }
           }
     ],
@@ -28,5 +30,6 @@
         "sourceType": "module"
     },
     "rules": {
+      "no-undef": "off"
     }
 }
