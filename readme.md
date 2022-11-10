@@ -2,6 +2,11 @@
 
 ## **Test Status Badges**
 
+[![Automated E2E Testing](https://github.com/volvojakobsen/social-media-client-ca/actions/workflows/e2e-test.yml/badge.svg)](https://github.com/volvojakobsen/social-media-client-ca/actions/workflows/e2e-test.yml)
+
+[![Automated Unit Testing](https://github.com/volvojakobsen/social-media-client-ca/actions/workflows/unit-test.yml/badge.svg)](https://github.com/volvojakobsen/social-media-client-ca/actions/workflows/unit-test.yml)
+
+[![Deploy static content to Pages](https://github.com/volvojakobsen/social-media-client-ca/actions/workflows/pages.yml/badge.svg)](https://github.com/volvojakobsen/social-media-client-ca/actions/workflows/pages.yml)
 
 ## **Repo Installation**
 
