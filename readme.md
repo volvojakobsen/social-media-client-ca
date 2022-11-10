@@ -44,7 +44,6 @@ Then go to url: `http://127.0.0.1:8080/` in your browser.
 This is a course assignment from noroff. the goal of the assignment is to manage workflow on a project-repo that i don't own. and make it 
 run prettier, eslint, jest on commit. and configure the project for hosting using a bundler. do some unit tests and e2e-tests on pull request.
 
-## **Tests**
 
 ### **Unit Testing, Jest**
 
