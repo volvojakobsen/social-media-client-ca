@@ -63,7 +63,7 @@ describe("User can create and delete post", () => {
       delay: 150,
     });
     cy.wait(5000);
-    cy.get('form button [data-action="publish"]').click();
+    cy.get('form button [data-action="publish"]').click({ force: true });
     cy.wait(30000);
     cy.get('form button [data-action="publish"]').then(($el) => {
       Cypress.dom.isVisible($el); // true
