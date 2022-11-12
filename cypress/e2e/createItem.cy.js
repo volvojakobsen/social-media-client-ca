@@ -28,7 +28,7 @@ describe("User can create and delete post", () => {
     cy.get('form [id="postBody"]').type("shorter text for test", {
       delay: 150,
     });
-    cy.wait(500);
+    cy.wait(5000);
     cy.get('form button [data-action="publish"]').click();
     cy.wait(30000);
     cy.get("button").contains("Delete").click({ force: true });
@@ -58,7 +58,7 @@ describe("User can create and delete post", () => {
     cy.get('form [id="postMedia"]').type(
       "https://picsum.photos/seed/picsum/200/300"
     );
-    cy.wait(500);
+    cy.wait(5000);
     cy.get('form [id="postBody"]').type("shorter text for test", {
       delay: 150,
     });
